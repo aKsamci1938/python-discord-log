@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^Giris$ login.php [L]
+RewriteRule ^Anasayfa$ index.php [L]
+RewriteRule ^Detay?=$ view.php? [L]
